@@ -1,3 +1,22 @@
+The console application project is written in C++ using the Microsoft Visual Studio integrated development environment. 
+It features simple input/output. It also handles arrays and random numbers. Finding the maximum element in an array is also possible.
+
+The program does the following:
+If the next element is greater than the previously found one, then its number (index) and value are remembered.
+After the loop completes, the index and element value variables will contain the maximum of the array.
+8. Displays the index of the maximum element of the array and its value.
+1. Prompts the user for the number of elements in the array.
+2. Allocates memory and creates an array of integers with the number of elements entered previously.
+3. Fills the created array with random positive integers from 1 to 100.
+4. Displays the received elements on the screen in a space-separated string in a loop with a parameter from 0 to the number of array elements - 1.
+(array numbering starts from 0).
+5. Creates two temporary variables for the index of the maximum element of the array and its value.
+6. The first variable is assigned the value 0, and the second is assigned the value of the element with the number (index) 0 (array numbering starts with 0).
+7. In the second loop with a parameter from 1 to the number of array elements - 1, the search for the maximum array element and its index (number) occurs.
+   If the next element is greater than the previously found one, then its number (index) and value are remembered.
+   After the loop completes, the index and element value variables will contain the maximum of the array.
+8. Displays the index of the maximum element of the array and its value.
+
 Проект консольного приложения написан на языке программирования C++ в интегрированной среде Microsoft Visual Studio. Простой ввод-вывод. Работа с массивами и случайными числами. Поиск максимального элемента массива. 
 Программа делает следующее:
 
